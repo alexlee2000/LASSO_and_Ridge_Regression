@@ -1,5 +1,5 @@
 # LASSO, Ridge Regression and Leave One Out Cross Validation
-This repository analyzes the differences between LASSO and Ridge Regression and how we can use Leave One Out Cross Validation (LOOCV) to evaluate the performance of these models. The LOOCV implementation does not use any existing packages that implemenet cross validation and is written completely from scratch. 
+This repository analyses the differences between LASSO and Ridge Regression and how we can use Leave One Out Cross Validation (LOOCV) to evaluate the performance of these models. The LOOCV implementation does not use any existing packages that implemenet cross validation and is written completely from scratch. 
 
 
 ## Part 1 - Exploratory Data Analysis 
