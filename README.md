@@ -37,6 +37,10 @@ The best lambda value was at lambda = 5.5 which produced a LOOCV error of approx
  ![image](https://user-images.githubusercontent.com/43845085/131056501-4e1f3588-b119-4e8b-91fd-5527b897ce94.png)
  
  ## Discussion (LASSO vs Ridge)
-In terms of error, the use of ridge regression provided a smoother error curve compared to lasso regression. Ridge regression in this case also presented us with lower error compared to the lasso regression. Although lasso has the ability to help with variable selection due to its ability to set some coefficients to zero, I personally prefer ridge regression as using the L2-Norm is more consistent with statistical analysis compared to the L1-Norm. Moreover, since the coefficients are squared in the penalty expression when using L2-Norm, it forces the coefficient values to be spread out more equally whereas L1-Norm does not. Therefore, since ridge regression provides models that are generally more stable as the coefficients do not fluctuate on small data changes, it is more preferable for feature interpretation. 
+In terms of error, the use of ridge regression provided a smoother error curve compared to lasso regression. Ridge regression in this case also presented us with lower error compared to the lasso regression. Although lasso has the ability to help with variable selection due to its ability to set some coefficients to zero, I personally prefer ridge regression as using the L2-Norm is more consistent with statistical analysis compared to the L1-Norm. Moreover, since the coefficients are squared in the penalty expression when using L2-Norm, it forces the coefficient values to be spread out more equally whereas L1-Norm does not. Therefore, since ridge regression provides models that are generally more stable as the coefficients do not fluctuate on small data changes, it is more preferable for accuracy. 
+
+Note that Ridge always has better estimation accuracy compared to LASSO. A good idea is to use LASSO for variable selection and then use ridge resgression for prediction accuracy afterwards.
+
+
 
 
